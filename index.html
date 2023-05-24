@@ -5,11 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JsExercise</title>
+    <!-- css  -->
+    <link rel="stylesheet" href="./css/style.css">
+   
 </head>
-<body>
-    
+<body> 
+    <div class="container">
 
+        <div class="first">
+            <label class="number1">Number 1</label>
+            <input type="number" class="numb1" placeholder="add a number ">
+        </div>
+        
+        <div class="second">
+            <label class="text">Opaerator</label>
+            <input type="text" class="op" placeholder="add an operator ">
+        </div>
+        
+        <div class="third">
+            <label class="number2">Number 2</label>
+            <input type="number" class="numb2" placeholder="add a number">
+        </div>
+        
+        <div class="screen">
+          <input type="text" value="" id="output"  >
+        </div>
+        
+        
+        <div>
+            <button id="display" onclick="display()">Display</button>
+        </div>
+       
+      </div>
 
+  <!-- javascript  -->
     <script src="./script/code.js"></script>
+   
 </body>
 </html>

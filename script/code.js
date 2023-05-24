@@ -45,7 +45,7 @@ console.log(fullName);
 
 
 //start with q2
-//declare variables
+
 let person = {
     firstName: 'Ganiefah',
     lastName: 'Majiet',
@@ -64,4 +64,5 @@ console.log(address);
 
 //q2 done
 
+//q3 start
 
