@@ -41,3 +41,27 @@ let fullName = {
     lastName: 'Majiet',
 };
 console.log(fullName);
+//q1 done 
+
+
+//start with q2
+//declare variables
+let person = {
+    firstName: 'Ganiefah',
+    lastName: 'Majiet',
+    age: 18,
+    subjects: 'math, physics,geograpgy and biology',
+}
+let address = {
+    streetName: 'Toner Road North',
+    streetNumber: 47,
+    suburb: 'Parow',
+    city: 'Cape Town',
+    countryName: 'South Africa'
+}
+console.log(person);
+console.log(address);
+
+//q2 done
+
+
