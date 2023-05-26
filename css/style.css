@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 300px;
+    /* width: 300px; */
     
 }
 
@@ -10,6 +10,8 @@ body{
     display: flex !important;
     align-items: center !important;
     justify-content:center !important ;
+    width: 100%;
+    height: 100vh;
 }
 
 .container{
