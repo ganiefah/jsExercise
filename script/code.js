@@ -92,22 +92,24 @@ function backwards(subject) {
 
 //Q5
 
-let mish =[
- firstName= "Mish-al",
- age = 20,
- birthday = '31-05-2002',
-
-]
-let date1 = new Date('05/31/2024');
-let date2 = new Date('05/31/2023');
-
-const days = (date1, date2) =>{
-    let difference = date1.getTime() - date2.getTime();
-    let totalDays = Math.ceil(difference / (1000 * 3600 * 24));
-    return totalDays;
+let info = [
+    {
+    name: 'Mish-Al',
+    dob: new Date('2002-5-31')
+},
+{
+    name:'Laiquah',
+    dob: '2017-06-24'
 }
-console.log(mish);
-console.log(days(date1, date2) +" days till next birthday");
-// Question 5
-// Initialize a variable as an array of objects with people's names and dates of birth, such as name: Mish-AI, dob: ‘2020-05-31’.
-// Display Mish’s age is , and how many days left until his birthday
+]
+
+console.log(info[0].dob)
+
+let birth = info.find(info => info.dob === info.dob)
+let today = new Date();
+console.log(today)
+console.log(today.getFullYear())
+console.log(info[0].dob.getFullYear())
+console.log(info[0].dob.getDate())
+console.log(info[0].dob.getDate() - today.getDate(),"2 Days Left until Mish's birthday");
+console.log('Mish is: ', today.getFullYear() - info[0].dob.getFullYear(), "years old!")
