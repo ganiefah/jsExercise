@@ -83,17 +83,31 @@ button.addEventListener('click',()=>{
     }
 })
 
-// let subject = "programming";
-// console.log(subject);
+//Q4
 let subject = "Programming";
 function backwards(subject) {
     return subject.split('').reverse().join('')
     }
     console.log(backwards(subject))
 
+//Q5
+
+let mish =[
+ firstName= "Mish-al",
+ age = 20,
+ birthday = '31-05-2002',
+
+]
+let date1 = new Date('05/31/2024');
+let date2 = new Date('05/31/2023');
+
+const days = (date1, date2) =>{
+    let difference = date1.getTime() - date2.getTime();
+    let totalDays = Math.ceil(difference / (1000 * 3600 * 24));
+    return totalDays;
+}
+console.log(mish);
+console.log(days(date1, date2) +" days till next birthday");
 // Question 5
-// Please create a branch called q5. Initialize a variable as an array of objects with people's names and dates of birth, such as name: Mish-AI, dob: ‘2020-05-31’.
+// Initialize a variable as an array of objects with people's names and dates of birth, such as name: Mish-AI, dob: ‘2020-05-31’.
 // Display Mish’s age is , and how many days left until his birthday
-// Create a pull request to merge the main branch with q5.
-// Delete q5 on the remote repository, and finally, please checkout to the main branch and run the git pull.
-// This will update your current local repository with the latest changes.
