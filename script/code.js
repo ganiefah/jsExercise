@@ -104,3 +104,27 @@ let today = new Date();
 
 console.log(info[0].dob.getDate() - today.getDate()," Days Left until Mish's birthday");
 console.log('Mish is: ', today.getFullYear() - info[0].dob.getFullYear(), "years old!")
+
+
+let switchFunction = prompt("Enter a number from 1 - 100: ")
+    switch(true){
+        case switchFunction >= 90 && switchFunction <= 100:
+            console.log("Well Done!")
+            break
+            case switchFunction >= 80 && switchFunction <= 89:
+                console.log("Way To Go!")
+                break
+                case switchFunction >= 75 && switchFunction <= 79:
+                        console.log("Keep It Up!")
+                    break
+                    case (switchFunction >= 60 && switchFunction <= 74):
+                        console.log("You Did Good")
+                        break
+                        case switchFunction >= 50 && switchFunction <= 59:
+                            console.log("That Was Good!")
+                            break
+                            case switchFunction < 50:
+                                console.log("You Failed!")
+                                break
+                                default:
+                                    "Nothing was entered"}
