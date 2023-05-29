@@ -82,3 +82,18 @@ button.addEventListener('click',()=>{
         answer.innerHTML = method
     }
 })
+
+// let subject = "programming";
+// console.log(subject);
+let subject = "Programming";
+function backwards(subject) {
+    return subject.split('').reverse().join('')
+    }
+    console.log(backwards(subject))
+
+// Question 5
+// Please create a branch called q5. Initialize a variable as an array of objects with people's names and dates of birth, such as name: Mish-AI, dob: ‘2020-05-31’.
+// Display Mish’s age is , and how many days left until his birthday
+// Create a pull request to merge the main branch with q5.
+// Delete q5 on the remote repository, and finally, please checkout to the main branch and run the git pull.
+// This will update your current local repository with the latest changes.
